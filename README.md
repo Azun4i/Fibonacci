@@ -5,7 +5,7 @@
 
 
 
-###REST API
+### REST API
 Чтобы получить все числа последовательности Фибоначчи с порядковыми номерами от first до last, необходимо отправить GET запрос вида:
 ```azure
 http://localhost:8090/fibonacci? x=last y=first
