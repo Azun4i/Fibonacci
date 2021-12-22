@@ -1,0 +1,19 @@
+syntax="proto3";
+
+package api;
+option go_package="api/"; // указываем в какой пакет сгенерить код
+//import "google/protobuf/wrappers.proto"; так мы импортируем зависимости котоые нам нужны
+
+service Fibonacci{
+    rpc GetFibonacci(FibonacciRequest) returns (FibonacciResponse){}
+}
+
+message FibonacciRequest {
+
+    int32 x = 1;
+    int32 y = 2;
+}
+
+message FibonacciResponse{
+  repeated int64 res = 1;
+}
