@@ -1,4 +1,4 @@
-# Fibonacci Rest and gRPS server & client
+# Fibonacci Rest and gRPC server & client
 
 
 
